@@ -3,7 +3,6 @@
 # Author: Jordan Lack
 # Date: 12/2013
 
-# This is meant to be completely open source and free.
 # Feel free to download, distribute, and/or alter 
 # as needed.
 
@@ -27,6 +26,11 @@
 # Write[stream, C];
 # Close[stream];
 # Clear[stream];
+
+# A few important things:
+# 1. Make sure in your Mathematica notebook you have, SetDirectory[NotebookDirectory[]] right before the call to run this script, but not before the above snippet.
+# 2. For each file expression you want to convert, you will need the four lines above.
+# 3. The exact line to run this(so you can copy paste if you want) is: Run["python mathtomat.py"]
 
 # Also note that this will make a Matlab/Octave function 
 # that has only 1 argument; however, it should be straight forward 
